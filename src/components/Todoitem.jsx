@@ -19,6 +19,7 @@ const Todoitem = ({todo}) => {
               todo.completed ? "bg-[#95b8e2]" : "bg-[#4b3e99]"
           }`}
       >
+        {/* Input Form */}
           <input
               type="checkbox"
               className="cursor-pointer"
